@@ -1,0 +1,17 @@
+{
+  "name": "@neuraforge/loadtest-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for load testing APIs. Run load tests, stress tests, and regression detection from any AI agent.",
+  "type": "module",
+  "bin": { "loadtest-mcp": "./index.js" },
+  "main": "index.js",
+  "scripts": { "start": "node index.js" },
+  "keywords": ["mcp", "load-testing", "stress-test", "performance", "autocannon", "api-testing", "ai-agents", "neuraforge"],
+  "author": "Vikas Singh (https://github.com/vikisingh23)",
+  "license": "Apache-2.0",
+  "repository": { "type": "git", "url": "https://github.com/vikisingh23/loadtest-mcp" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "autocannon": "^7.14.0"
+  }
+}
